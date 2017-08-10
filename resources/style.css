@@ -139,38 +139,27 @@ header ul li{
 }
 /****************************************/
 /*Last Section with Philosophy and Appointments section*/
-/***************For Containers Section***************/
 .info-container{
-  /*display: flex;*/
-  /*flex-direction: row;*/
-  /*justify-content: space-around;*/
-  /*justify-content: center;*/
-  max-width: 960px;
-  margin: 0px auto;
-}
-.width-container{
-  width: 35%;
-  /*margin-left: 75px;*/
-  border: 1px solid black;
   display: flex;
   justify-content: space-around;
+  max-width: 960px;
+  margin: 0px auto;
+  /*border: 1px solid black;*/
 }
 .title {
   background-color: cadetblue;
-  color:white;
+  color: white;
   font-weight: bold;
-  font-size:1rem;
-  margin-left: 12.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  /*padding: 10px;*/
-  /*margin-bottom: 1rem;*/
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
   width: 10rem;
 }
-/***************Appointments Section***************/
-.appointments p {
-  width: 35%;
+.appointments{
+  margin-left: 5%;
 }
-.philosophy p{
-  width: 35%;
+.appointments p {
+  width: 100%;
+}
+.philosophy p {
+  width: 50%;
 }
