@@ -1,0 +1,176 @@
+/****************************************/
+/*For Entire Website*/
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+body {
+  margin: 0px;
+}
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+/****************************************/
+/*For the Image Header*/
+header{
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
+  background-size: cover;
+  height: 30rem;
+  /* padding to get the space on top*/
+  padding-top: 16px;
+}
+/****************************************/
+/*For The Blue Header*/
+header .container{
+    background-color: cadetblue;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+/****************************************/
+/*For Logo and Heading*/
+header .container div{
+    display: flex;
+    align-items: center;
+}
+header .container div img{
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right:1rem;
+}
+header .container div span{
+  font-size: 1rem;
+}
+/****************************************/
+/*For Navigation*/
+header ul{
+  list-style-type: none;
+  /*position: relative;
+  bottom: 10px;
+  left: 600px;*/
+}
+header ul li{
+  display: inline;
+}
+header ul li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.container .mobile-nav{
+  display: none;
+}
+/****************************************/
+/*For The White Box*/
+.container-whitebox{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-whitebox .box{
+  background-color: white;
+  /*height: 100px;*/
+  margin-top:10rem;
+}
+.container-whitebox .box h1{
+  color: black;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-weight:bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  /*margin-bottom: 0px;
+  margin-top: 0px;*/
+}
+/****************************************/
+/*for the three pictures of their service*/
+.picture-container{
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  max-width: 960px;
+}
+.picture-container .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+/****************************************/
+/*for the ruler picture*/
+.picture-container .item-ruler{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+.picture-container .item-ruler img{
+  width: 5rem;
+}
+.picture-container .item-ruler span{
+  display: flex;
+  text-align: center;
+}
+/****************************************/
+/*for the truck and paper picture*/
+.picture-container .item-exam .item img{
+  margin-left: 35px;
+}
+.picture-container .item-truck .item img{
+  margin-left: 14px;
+}
+.picture-container .item img{
+  width: 3.5rem;
+}
+.picture-container .item span{
+  display:flex;
+  text-align: center;
+}
+/****************************************/
+/*Last Section with Philosophy and Appointments section*/
+/***************For Containers Section***************/
+.info-container{
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: space-around;*/
+  /*justify-content: center;*/
+  max-width: 960px;
+  margin: 0px auto;
+}
+.width-container{
+  width: 35%;
+  /*margin-left: 75px;*/
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  background-color: cadetblue;
+  color:white;
+  font-weight: bold;
+  font-size:1rem;
+  margin-left: 12.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /*padding: 10px;*/
+  /*margin-bottom: 1rem;*/
+  width: 10rem;
+}
+/***************Appointments Section***************/
+.appointments p {
+  width: 35%;
+}
+.philosophy p{
+  width: 35%;
+}
