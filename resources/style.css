@@ -28,7 +28,6 @@ header .container{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
 }
 /****************************************/
 /*For Logo and Heading*/
@@ -146,7 +145,7 @@ header ul li{
   margin: 0px auto;
   /*border: 1px solid black;*/
 }
-.title {
+.title{
   background-color: cadetblue;
   color: white;
   font-weight: bold;
@@ -155,11 +154,211 @@ header ul li{
   width: 10rem;
 }
 .appointments{
-  margin-left: 5%;
+  /*margin-left: 5%;*/
+  margin-right: 5%;
 }
-.appointments p {
+.appointments p{
   width: 100%;
 }
-.philosophy p {
+.philosophy p{
   width: 50%;
 }
+.philosophy{
+  margin-left: 46px;
+}
+/****************************************/
+/*Footer section*/
+footer .container{
+  background-color: azure;
+  margin-top: 5rem;
+  display: flex;
+}
+footer img{
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+footer span{
+  margin-top: 75px;
+}
+/****************************************/
+/* Media Queries Tablet*/
+@media only screen and (max-width: 1024px){
+  .container{
+      max-width: 100%;
+      margin-top: -16px;
+  }
+  /****************************************/
+  /*For the Image Header*/
+  header{
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
+    background-size: cover;
+    height: 22rem;
+  }
+  /****************************************/
+  /*For The White Box*/
+  .container-whitebox{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container-whitebox .box{
+    background-color: white;
+    margin-top: 5rem;
+  }
+  .container-whitebox .box h1{
+    color: black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight:bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+  }
+}
+/****************************************/
+/* Media Queries Mobile Phone*/
+@media only screen and (max-width: 470px){
+  .container{
+      max-width: 100%;
+      /*margin-top: -16px;*/
+  }
+  /****************************************/
+  /*For the Image Header*/
+  header{
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
+    background-size: cover;
+    height: 17rem;
+  }
+  /****************************************/
+  /*For Logo and Heading*/
+  header .container div span{
+    display: none;
+  }
+  /****************************************/
+  /*For The White Box*/
+  .container-whitebox{
+    /*max-width: 960px;*/
+    /*margin: 0px auto;*/
+    display: flex;
+    justify-content: center;
+  }
+  .container-whitebox .box{
+    background-color: white;
+    margin-top: 9rem;
+    width: 100%;
+  }
+  .container-whitebox .box h1{
+    color: black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight:bold;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  /****************************************/
+  /*For Navigation*/
+  header ul{
+    display: none;
+  }
+  .container .mobile-nav{
+    display: flex;
+    /*justify-content: center;*/
+    color: blue;
+  }
+  .mobile-nav ul li{
+    /*padding-top: 1rem;*/
+    padding-bottom: 1rem;
+    /*padding-left: 2rem;
+    padding-right: 2rem;*/
+  }
+  /****************************************/
+  /*for the three pictures of their service*/
+  .picture-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 960px;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+  .picture-container .item-exam .item img{
+    margin-left: 19px;
+  }
+  .picture-container .item-ruler span{
+    /*display: flex;
+    text-align: center;*/
+    font-size: 0.77rem;
+  }
+  .picture-container .item span{
+    font-size: 0.77rem;
+    margin-top: -100px;
+  }
+}
+/*header ul{
+  list-style-type: none;
+}
+header ul li{
+  display: inline;
+}
+header ul li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.container .mobile-nav{
+  display: none;
+}*/
+
+
+
+
+/*.picture-container .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+****************************************
+for the ruler picture
+.picture-container .item-ruler{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+.picture-container .item-ruler img{
+  width: 5rem;
+}
+.picture-container .item-ruler span{
+  display: flex;
+  text-align: center;
+}
+
+for the truck and paper picture
+.picture-container .item-exam .item img{
+  margin-left: 35px;
+}
+.picture-container .item-truck .item img{
+  margin-left: 14px;
+}
+.picture-container .item img{
+  width: 3.5rem;
+}
+.picture-container .item span{
+  display:flex;
+  text-align: center;
+}*/
