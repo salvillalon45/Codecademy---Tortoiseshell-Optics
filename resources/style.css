@@ -225,7 +225,6 @@ footer span{
 @media only screen and (max-width: 470px){
   .container{
       max-width: 100%;
-      /*margin-top: -16px;*/
   }
   /****************************************/
   /*For the Image Header*/
@@ -244,7 +243,7 @@ footer span{
   .container-whitebox{
     /*max-width: 960px;*/
     /*margin: 0px auto;*/
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
   }
   .container-whitebox .box{
@@ -254,14 +253,15 @@ footer span{
   }
   .container-whitebox .box h1{
     color: black;
-    padding-left: 4rem;
+    /*padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem;*/
     font-weight:bold;
     font-size: 1rem;
     line-height: 1.2;
     text-align: center;
+
   }
   /****************************************/
   /*For Navigation*/
@@ -270,12 +270,13 @@ footer span{
   }
   .container .mobile-nav{
     display: flex;
-    /*justify-content: center;*/
-    color: blue;
+    margin-top: 5px;
+    justify-content: center;
   }
-  .mobile-nav ul li{
+  .container .mobile-nav ul li{
+    /*border: 1px solid black;*/
     /*padding-top: 1rem;*/
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
     /*padding-left: 2rem;
     padding-right: 2rem;*/
   }
@@ -287,8 +288,9 @@ footer span{
     align-items: center;
     margin: 0px auto;
     max-width: 960px;
-    margin-top: 3.77rem;
-    margin-bottom: 3.77rem;
+    /*margin-top: 3.77rem;
+    margin-bottom: 3.77rem;*/
+    border: 1px solid black;
   }
   .picture-container .item-exam .item img{
     margin-left: 19px;
@@ -297,68 +299,62 @@ footer span{
     /*display: flex;
     text-align: center;*/
     font-size: 0.77rem;
+    margin-bottom: 100px;
+  }
+  .picture-container .item-ruler img{
+    margin-top: -50px;
   }
   .picture-container .item span{
     font-size: 0.77rem;
     margin-top: -100px;
   }
-}
-/*header ul{
-  list-style-type: none;
-}
-header ul li{
-  display: inline;
-}
-header ul li{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.container .mobile-nav{
-  display: none;
-}*/
+  .picture-container .item-truck img{
+    margin-top: -170px;
+  }
+  .picture-container .item-truck span{
+    margin-bottom: 220px;
+  }
+  /****************************************/
+  /*Last Section with Philosophy and Appointments section*/
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    max-width: 100%;
+    /*margin: 0px auto;*/
+  }
+  .title{
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    width: 100%;
+    text-align: center;
+  }
+  .appointments{
+    margin-top: 4rem;
+    margin-right: 0%;
+  }
+  .appointments p{
+    width: 100%;
+  }
+  .philosophy p{
+    width: 100%;
+  }
+  .philosophy{
+    margin-left: 0px;
+  }
+  /****************************************/
+  /*Footer section*/
+  footer .container{
+    background-color: azure;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
 
+  }
 
-
-
-/*.picture-container .item{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 5rem;
-  height: 8rem;
-  margin: 3rem;
-}
-****************************************
-for the ruler picture
-.picture-container .item-ruler{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 5rem;
-  height: 8rem;
-  margin: 3rem;
-}
-.picture-container .item-ruler img{
-  width: 5rem;
-}
-.picture-container .item-ruler span{
-  display: flex;
-  text-align: center;
-}
-
-for the truck and paper picture
-.picture-container .item-exam .item img{
-  margin-left: 35px;
-}
-.picture-container .item-truck .item img{
-  margin-left: 14px;
-}
-.picture-container .item img{
-  width: 3.5rem;
-}
-.picture-container .item span{
-  display:flex;
-  text-align: center;
-}*/
+  footer span{
+    display: none;
+  }
