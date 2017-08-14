@@ -242,9 +242,6 @@ footer span{
   /****************************************/
   /*For The White Box*/
   .container-whitebox{
-    /*max-width: 960px;*/
-    /*margin: 0px auto;*/
-    /*display: flex;*/
     justify-content: center;
   }
   .container-whitebox .box{
@@ -274,54 +271,58 @@ footer span{
     margin-top: 5px;
     justify-content: center;
   }
-  .container .mobile-nav ul li{
-    /*border: 1px solid black;*/
-    /*padding-top: 1rem;*/
-    /*padding-bottom: 1rem;*/
-    /*padding-left: 2rem;
-    padding-right: 2rem;*/
-  }
   /****************************************/
   /*for the three pictures of their service*/
   .picture-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*margin: 0px auto;
-    max-width: 960px;*/
-    /*margin-top: 3.77rem;
-    margin-bottom: 3.77rem;*/
-    border: 1px solid black;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+  .picture-container .item{
+    /*margin-top: 3.77rem;*/
+    margin: 0px;
+  }
+  .picture-container .item-ruler{
+    margin:0px;
+    /*margin-top: 100px;*/
+  }
+  .picture-container .item-exam{
+  padding-bottom: 100px;
+}
+  .picture-container .item-exam span{
+    /*margin-top: 50px;*/
   }
   .picture-container .item-exam .item img{
     margin-left: 19px;
   }
   .picture-container .item-ruler span{
-    /*display: flex;
-    text-align: center;*/
     font-size: 0.77rem;
-    margin-bottom: 100px;
   }
   .picture-container .item-ruler img{
-    margin-top: -50px;
   }
   .picture-container .item span{
     font-size: 0.77rem;
-    margin-top: -100px;
+    /*margin-bottom: 1rem;*/
+    /*margin-top: -100px;*/
   }
-  .picture-container .item-truck img{
-    margin-top: -170px;
+  .picture-container .item-truck{
+    /*margin-top: 100px;*/
   }
+/*.picture-container .item-truck img{
+    margin-bottom: 400px;
+  }*/
   .picture-container .item-truck span{
-    margin-bottom: 220px;
+    /*margin-TIOP: 100px;*/
   }
   /****************************************/
   /*Last Section with Philosophy and Appointments section*/
   .info-container{
-    /*display: flex;*/
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    /*margin-top: 3rem;*/
   }
   .title{
     background-color: cadetblue;
