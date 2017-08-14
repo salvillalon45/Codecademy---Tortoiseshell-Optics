@@ -154,23 +154,19 @@ header ul li{
   padding: 0.5rem 1.25rem;
   width: 10rem;
 }
-.philosophy, .appointments{
-  width: 35%;
+.appointments{
+  /*margin-left: 5%;*/
   margin-right: 5%;
-  margin-bottom: 4rem;
 }
-/*.appointments{
-  margin-right: 5%;
-}*/
 .appointments p{
   width: 100%;
 }
 .philosophy p{
   width: 50%;
 }
-/*.philosophy{
+.philosophy{
   margin-left: 46px;
-}*/
+}
 /****************************************/
 /*Footer section*/
 footer .container{
