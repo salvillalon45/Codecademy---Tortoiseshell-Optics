@@ -47,9 +47,6 @@ header .container div span{
 /*For Navigation*/
 header ul{
   list-style-type: none;
-  /*position: relative;
-  bottom: 10px;
-  left: 600px;*/
 }
 header ul li{
   display: inline;
@@ -73,7 +70,6 @@ header ul li{
 }
 .container-whitebox .box{
   background-color: white;
-  /*height: 100px;*/
   margin-top:10rem;
 }
 .container-whitebox .box h1{
@@ -85,8 +81,6 @@ header ul li{
   font-weight:bold;
   font-size: 2rem;
   line-height: 1.2;
-  /*margin-bottom: 0px;
-  margin-top: 0px;*/
 }
 /****************************************/
 /*for the three pictures of their service*/
@@ -155,7 +149,6 @@ header ul li{
   width: 10rem;
 }
 .appointments{
-  /*margin-left: 5%;*/
   margin-right: 5%;
 }
 .appointments p{
@@ -232,6 +225,8 @@ footer span{
   header{
     background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 17rem;
   }
   /****************************************/
@@ -251,10 +246,6 @@ footer span{
   }
   .container-whitebox .box h1{
     color: black;
-    /*padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;*/
     font-weight:bold;
     font-size: 1rem;
     line-height: 1.2;
@@ -278,43 +269,31 @@ footer span{
     flex-direction: column;
     align-items: center;
     margin-top: 3.77rem;
-    margin-bottom: 3.77rem;
+  }
+  .picture-container .item span{
+    font-size: 0.77rem;
   }
   .picture-container .item{
-    /*margin-top: 3.77rem;*/
     margin: 0px;
   }
   .picture-container .item-ruler{
     margin:0px;
-    /*margin-top: 100px;*/
   }
   .picture-container .item-exam{
-  padding-bottom: 100px;
-}
+  padding-bottom: 40px;
+  }
   .picture-container .item-exam span{
-    /*margin-top: 50px;*/
+    margin-bottom: 10px;
   }
   .picture-container .item-exam .item img{
     margin-left: 19px;
   }
   .picture-container .item-ruler span{
     font-size: 0.77rem;
+    margin-bottom: 40px;
   }
-  .picture-container .item-ruler img{
-  }
-  .picture-container .item span{
-    font-size: 0.77rem;
-    /*margin-bottom: 1rem;*/
-    /*margin-top: -100px;*/
-  }
-  .picture-container .item-truck{
-    /*margin-top: 100px;*/
-  }
-/*.picture-container .item-truck img{
-    margin-bottom: 400px;
-  }*/
   .picture-container .item-truck span{
-    /*margin-TIOP: 100px;*/
+    margin-bottom: 60px;
   }
   /****************************************/
   /*Last Section with Philosophy and Appointments section*/
@@ -322,7 +301,6 @@ footer span{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /*margin-top: 3rem;*/
   }
   .title{
     background-color: cadetblue;
@@ -332,18 +310,19 @@ footer span{
     padding: 0.5rem 1.25rem;
     width: 100%;
     text-align: center;
+    padding-left: 1 px;
   }
   .appointments{
     margin-top: 4rem;
     margin-right: 0%;
   }
   .appointments p{
-    width: 100%;
+    width: 90%;
     font-size: 0.77rem;
     margin-left: 10px;
   }
   .philosophy p{
-    width: 80%;
+    width: 90%;
     font-size: 0.77rem;
     margin-left: 10px;
   }
